@@ -1,5 +1,6 @@
 {
   "expo": {
+    "userInterfaceStyle": "automatic",
     "name": "MyAlarmFaker",
     "slug": "MyAlarmFaker",
     "version": "1.0.0",
@@ -17,13 +18,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gunwoofer.MyAlarmFaker"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.gunwoofer.MyAlarmFaker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
